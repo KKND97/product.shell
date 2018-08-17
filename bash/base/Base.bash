@@ -35,13 +35,13 @@ set -o errexit
 
 ##Define functions
 #log info print function
-function log () {
+function log  {
   local prefix="[$(date +%Y/%m/%d\ %H:%M:%S)]: "
   echo "${prefix} $@" >&2
 }
 
 #main function
-function main (){
+function main {
   :;
 }
 
